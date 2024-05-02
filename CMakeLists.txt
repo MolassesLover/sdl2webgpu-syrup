@@ -4,7 +4,7 @@
 
 # The sdl2webgpu target
 add_library(sdl2webgpu STATIC sdl2webgpu.c)
-target_include_directories(sdl2webgpu PUBLIC .)
+target_include_directories(sdl2webgpu PUBLIC . libs/submodules/webgpu-headers)
 target_link_libraries(sdl2webgpu PUBLIC SDL2::SDL2 webgpu)
 
 if (APPLE)

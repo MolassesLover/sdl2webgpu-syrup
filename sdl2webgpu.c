@@ -32,7 +32,7 @@
 
 #include "sdl2webgpu.h"
 
-#include <webgpu/webgpu.h>
+#include <webgpu.h>
 
 #if defined(SDL_VIDEO_DRIVER_COCOA)
 #include <Cocoa/Cocoa.h>

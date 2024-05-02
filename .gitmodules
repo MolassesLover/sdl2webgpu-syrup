@@ -1,0 +1,3 @@
+[submodule "libs/submodules/webgpu-headers"]
+	path = libs/submodules/webgpu-headers
+	url = https://github.com/webgpu-native/webgpu-headers.git
